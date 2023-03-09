@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="20px" cellspacing="10px">
+        <tr cellpadding="20px">
+            <td>column1</td>
+            <td>column2</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">colspan column</td>
+            <!-- <td>1</td> -->
+        </tr>
+
+        <tr>
+            <td rowspan="3">1</td>
+            <td align="center">cell2</td>
+        </tr>
+
+        <tr>
+            <td>
+                <table border="1" cellspacing="10px" cellpadding="20px" bgcolor="yellow" align="center">
+                    <tr align="center">
+                        <th>inner column1 </th>
+                        <th>inner column2</th>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="gray">inner data cell</td>
+                        <td bgcolor="greenyellow">
+                            <table border="1" align="center" bgcolor="lightpink" cellspacing="10px" cellpadding="20px">
+                                <tr align="center">
+                                    <th>inner column heading 1</th>
+                                    <th>inner column heading 2</th>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="violet"> inner data cell 1</td>
+                                    <td bgcolor="red"> inner data cell 2 </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <!-- <td>1</td> -->
+        </tr>
+
+        <tr>
+            <!-- <td>1</td> -->
+            <!-- <td>1</td> -->
+        </tr>
+
+    </table>
+</body>
+</html>

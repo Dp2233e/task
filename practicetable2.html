@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+        </tr>
+        <tr>
+            <td colspan="10" align="center">column</td>
+            <!-- <td>2</td> -->
+        </tr>
+        <tr>
+            <td rowspan="3" align="center">Cell</td>
+            <td align="center">Cell2</td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" bgcolor="yellow" cellspacing="10" cellpadding="20">
+                    <tr>
+                        <th>Inner Column 1 </th>
+                        <th>Inner Column 2</th>
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>Inner Data Cell</td>
+                        <td bgcolor="red">
+                            <table border="1" align="center" bgcolor="green" cellspacing="10px" cellpadding="20px">
+                                <tr>
+                                    <th>Inner Most Column 1</th>
+                                    <th>Inner Most Column 2</th>
+                                </tr>
+
+                                <tr>
+                                    <td bgcolor="orange">Inner Most cell 1</td>
+                                    <td bgcolor="pink">Inner Most cell 2</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                   
+            </td>
+            <!-- <td>2</td> -->
+        </tr>
+        <tr>
+            <!-- <td>1</td> -->
+            <!-- <td>2</td> -->
+        </tr>
+    </table>
+</body>
+</html>
